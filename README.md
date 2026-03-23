@@ -35,9 +35,11 @@ Track your spending, analyze trends, and gain insights into your financial habit
 
 ## 📂 Project Structure
 
+```
 penny_track/
 ├── backend/     # Django backend (API)
 └── frontend/    # React frontend (UI)
+```
 
 ---
 
@@ -65,11 +67,11 @@ npm start
 
 ### Backend
 
-SECRET_KEY=your_secret_key
+SECRET_KEY = your_secret_key
 
 ### Frontend
 
-REACT_APP_API_KEY=your_api_key
+REACT_APP_API_KEY = your_api_key
 
 ---
 
