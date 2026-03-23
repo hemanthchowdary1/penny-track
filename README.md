@@ -1,25 +1,25 @@
-# 💸 PennyTrack – Smart Expense Tracker
+# 📊 PennyTrack – Smart Expense Tracker
 
 A modern full-stack expense tracking application built with React and Django REST Framework.  
 Track your spending, analyze trends, and gain insights into your financial habits.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📊 Dashboard with analytics
-- ➕ Add / Edit / Delete expenses
-- 💰 Budget tracking with progress indicator
-- 📈 Charts & spending insights
-- 🤖 AI-powered insights (Groq integration)
-- 🔐 JWT Authentication (Login/Register)
-- 👤 Profile & avatar system
-- 📥 Export data as CSV
-- 📱 Fully responsive UI
+- Dashboard with analytics
+- Add / Edit / Delete expenses
+- Budget tracking with progress indicator
+- Charts & spending insights
+- AI-powered insights (Groq integration)
+- JWT Authentication (Login/Register)
+- Profile & avatar system
+- Export data as CSV
+- Fully responsive UI
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 - React.js
@@ -33,7 +33,7 @@ Track your spending, analyze trends, and gain insights into your financial habit
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 penny_track/
@@ -43,7 +43,7 @@ penny_track/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Backend
 
@@ -63,7 +63,7 @@ npm start
 
 ---
 
-## ⚠️ Environment Variables
+## Environment Variables
 
 ### Backend
 
@@ -75,7 +75,7 @@ REACT_APP_API_KEY = your_api_key
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
@@ -97,18 +97,3 @@ REACT_APP_API_KEY = your_api_key
 
 ### Profile
 ![Profile](screenshots/profile.png)
-
----
-
-## 🌐 Future Improvements
-
-- Multi-user analytics
-- Expense categories insights
-- Cloud deployment
-- Notifications
-
----
-
-## 👨‍💻 Author
-
-- Hemanth
