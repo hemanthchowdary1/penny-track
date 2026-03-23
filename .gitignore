@@ -1,0 +1,39 @@
+# Python / Django
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Database
+backend/db.sqlite3
+*.sqlite3
+
+# Env files
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+*.env
+
+# Logs
+*.log
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
