@@ -1,4 +1,4 @@
-# 📊 PennyTrack – Smart Expense Tracker
+# 💸 PennyTrack – Smart Expense Tracker
 
 A modern full-stack expense tracking application built with React and Django REST Framework.  
 Track your spending, analyze trends, and gain insights into your financial habits.
