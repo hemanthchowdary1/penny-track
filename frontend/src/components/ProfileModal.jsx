@@ -50,7 +50,7 @@ export default function ProfileModal({ user, expenses, onClose, onLogout, onAvat
         transition: "width 0.3s ease",
       }}>
 
-        {/* ── Top section: avatar + name ── */}
+        {/* Top section: avatar + name */}
         <div style={{
           padding: "36px 32px 28px",
           background: "linear-gradient(160deg, rgba(139,92,246,0.18) 0%, rgba(6,182,212,0.08) 100%)",
@@ -93,7 +93,7 @@ export default function ProfileModal({ user, expenses, onClose, onLogout, onAvat
           </p>
         </div>
 
-        {/* ── Avatar picker (slides open) ── */}
+        {/* Avatar picker (slides open) */}
         {picking && (
           <div style={{ padding: "20px 28px", borderBottom: "1px solid rgba(255,255,255,0.06)", background: "rgba(139,92,246,0.05)" }}>
             <p style={{ fontSize: 11, fontWeight: 700, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 14 }}>
@@ -123,7 +123,7 @@ export default function ProfileModal({ user, expenses, onClose, onLogout, onAvat
           </div>
         )}
 
-        {/* ── Stats ── */}
+        {/* Stats */}
         <div style={{ padding: "22px 28px", borderBottom: "1px solid rgba(255,255,255,0.06)" }}>
           <p style={{ fontSize: 11, fontWeight: 700, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 14 }}>
             Your Stats
@@ -156,7 +156,7 @@ export default function ProfileModal({ user, expenses, onClose, onLogout, onAvat
           )}
         </div>
 
-        {/* ── Actions ── */}
+        {/* Actions */}
         <div style={{ padding: "18px 28px 24px", display: "flex", flexDirection: "column", gap: 8 }}>
           <button onClick={onClose} style={{
             width: "100%", padding: "13px", borderRadius: 12,

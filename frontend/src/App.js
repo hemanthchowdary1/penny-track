@@ -149,7 +149,7 @@ export default function App() {
         />
       )}
 
-      {/* ── Sidebar ── */}
+      {/* Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         <div className="logo-wrap">
           <h1><span className="violet-text">Penny</span>Track</h1>
@@ -174,7 +174,7 @@ export default function App() {
           </button>
         ))}
 
-        {/* ── Sidebar footer ── */}
+        {/* Sidebar footer */}
         <div className="sidebar-footer">
 
           {/* Budget mini */}
@@ -231,7 +231,7 @@ export default function App() {
         </div>
       </aside>
 
-      {/* ── Main ── */}
+      {/* Main */}
       <main className="main">
         <div className="page-header">
           <h2>{PAGE[tab]?.title}</h2>

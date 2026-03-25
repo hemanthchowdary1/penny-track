@@ -52,7 +52,6 @@ export default function AIInsights({ expenses, apiKey }) {
     setLoading(true); setError(null); setResult(null);
 
     try {
-      // Gemini API endpoint
       const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {

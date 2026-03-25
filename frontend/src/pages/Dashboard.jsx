@@ -136,7 +136,7 @@ export default function Dashboard({ expenses, budget }) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
 
-      {/* ── Stat Cards ── */}
+      {/* Stat Cards */}
       <div className="stagger" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 16 }}>
         <StatCard icon="💳" label="Total Spent" value={`₹${fmt(cTotal)}`} sub={`${safe.length} transactions`} accent="#8b5cf6" />
         <StatCard icon="📆" label="This Week"   value={`₹${fmt(cWeek)}`}  sub="last 7 days"                  accent="#06b6d4" />
@@ -144,7 +144,7 @@ export default function Dashboard({ expenses, budget }) {
         <StatCard icon="🔺" label="Largest"     value={`₹${fmt(cMax)}`}   sub="max transaction"              accent="#f59e0b" />
       </div>
 
-      {/* ── Budget bar ── */}
+      {/* Budget bar */}
       {budgetNum > 0 && (
         <div className="card" style={{ padding: "18px 24px", display: "flex", alignItems: "center", gap: 20 }}>
           <span style={{ fontSize: 14, color: "var(--text2)", fontWeight: 600, whiteSpace: "nowrap" }}>Monthly Budget</span>
@@ -199,7 +199,7 @@ export default function Dashboard({ expenses, budget }) {
         </div>
       </div>
 
-      {/* ── Monthly bar + Day heatmap ── */}
+      {/* Monthly bar + Day heatmap */}
       {mLabels.length > 0 && (
         <div style={{ display: "grid", gridTemplateColumns: "1.6fr 1fr", gap: 16 }}>
           <div className="card" style={{ padding: 28 }}>
@@ -213,13 +213,13 @@ export default function Dashboard({ expenses, budget }) {
         </div>
       )}
 
-      {/* ── Calendar heatmap ── */}
+      {/* Calendar heatmap */}
       <div className="card" style={{ padding: 28 }}>
         <p className="slabel">Spending Calendar — Last 13 Weeks</p>
         <CalendarHeatmap expenses={safe} />
       </div>
 
-      {/* ── Smart Insights row ── */}
+      {/* Smart Insights row */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 14 }}>
         {topCat && (() => {
           const cat = getCat(topCat[0]);

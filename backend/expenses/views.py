@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from .models import Expense
 from .serializers import ExpenseSerializer
 
-# ── Expense CRUD — only current user's expenses ──
+# Expense CRUD — only current user's expenses
 class ExpenseViewSet(viewsets.ModelViewSet):
     serializer_class   = ExpenseSerializer
     permission_classes = [IsAuthenticated]
@@ -20,7 +20,7 @@ class ExpenseViewSet(viewsets.ModelViewSet):
         serializer.save(user=self.request.user)
 
 
-# ── Register new user ──
+# Register new user
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register(request):
